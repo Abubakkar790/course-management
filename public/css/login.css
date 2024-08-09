@@ -1,0 +1,30 @@
+body {
+    background: #E7EEF6;
+}
+
+.login-form-container {
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+    /* height: 43rem; */
+    height: 30rem;
+    padding: 10px;
+    /* background: burlywood; */
+}
+
+@media screen and (max-width: 768px) {
+    .login-form-container {
+        height: 20rem;
+    }
+}
+
+.login-form {
+    display: block;
+    width: 30rem;
+    padding: 20px 20px;
+    box-shadow: 0 0 60px rgba(18, 38, 63, .08);
+    border-radius: 25px;
+    background: white;
+    /* color: */
+}
